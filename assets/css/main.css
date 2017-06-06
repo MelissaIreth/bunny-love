@@ -1,0 +1,41 @@
+body{
+	background-color: whitesmoke;
+	margin: 0;
+	padding: 0;
+}
+
+.el-menu{
+	padding: 20px;
+	background-color: #037f99;
+	color: #dfdfdf;
+	padding: 10px;
+	width: 100%;
+}
+
+nav h2{
+	padding-top: 4px;
+	color: #f87673;
+}
+
+ul li{
+	list-style: none;
+	padding: 10px;
+}
+
+ul li a{
+	text-decoration: none;
+}
+
+.flex-container{
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu{
+	width: 100%;
+	background-color: #037f99;
+}
+
+.show{
+	visibility: visible;
+}
