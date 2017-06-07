@@ -1,4 +1,4 @@
-@media (min-width: 1px) and (max-width: 677px){
+@media (max-width: 676px){
 	.menu{
 		width: 100%;
 		flex-direction:column;
@@ -60,6 +60,18 @@
 		width: 90%;
 		height: 90%;
 	}
+
+	.fotos-peque{
+		flex-direction: column;
+	} 
+	.imgs{
+		flex-direction: column;
+	}
+	.imgs img{
+		width: 70%;
+		padding-left: 70px;
+	}
+
 }
 
 @media (min-width: 677px){

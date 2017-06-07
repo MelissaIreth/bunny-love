@@ -27,7 +27,7 @@ ul li a{
 
 .flex-container{
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 .menu{
@@ -37,4 +37,9 @@ ul li a{
 
 .show{
 	visibility: visible;
+}
+.imgs img{
+	width: 15%;
+	height: 80%;
+	margin: 10px;
 }
