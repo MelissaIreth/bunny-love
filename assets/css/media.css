@@ -4,10 +4,11 @@
 		flex-direction:column;
 		background-color: whitesmoke;
 		font-family: 'Prompt', sans-serif;
-
+		background-color: #037f99;
 	}
+
 	.show{
-		visibility: hidden;
+		display: none;
 	}
 
 	#el_menu{
@@ -21,8 +22,7 @@
 		padding: 8px;
 		align-content: flex-start;
 		border-bottom: 1px solid white;
-		background-color: #037f99;
-
+		width: 90%;
 	}
 
 	ul li a{	
@@ -35,6 +35,7 @@
 	ul li:hover{
 		background: #f87673;
 		border-bottom: 1px solid #f87673;
+		width: 90%;
 	}
 
 	ul li a:hover{
@@ -44,15 +45,21 @@
 	.el-menu:hover{
 		background-color: #f87673;
 		color: whitesmoke;
+		width: 94%;
 	}
 
 	ul{
 		flex-direction: column;
+
 	}
 	.el-menu{
 		visibility: visible;
+		width: 90%;
 	}
-
+	img{
+		width: 90%;
+		height: 90%;
+	}
 }
 
 @media (min-width: 677px){
